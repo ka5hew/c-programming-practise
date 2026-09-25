@@ -11,11 +11,8 @@ int main() {
   if (isGreater) {
     printf("x is greater than y");
   }
-  else if (isLesser){
-    printf("x is lesser than y");
-  }
   else {
-    printf("x is equal to y");
+    printf("x is lesser than y");
   }
 
   return 0;
