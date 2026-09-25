@@ -12,6 +12,16 @@ int main ()
     printf("%d\n", x*y);
 //division
     printf("%d\n", x/y);
+//modulus
+    printf("%d\n", x%y);
 
+int z=6;
+//increment
+    ++z;
+    printf("%d\n", z);
+//decrement
+    --z;
+    printf("%d\n", z);
+    
 return 0;
 }
