@@ -20,23 +20,23 @@ int main ()
 
   int z= 6;
   z &= 3; //bitwise AND assignment
-  printf("%d\n",z);
+  printf("%d\n",z); //2
 
   int a = 8;
   a |= 4; //bitwise OR assignment
-  printf("%d\n",a);
+  printf("%d\n",a); //12
 
   int k = 4;
-  a ^= 6;
-  printf("%d\n",k);
+  k ^= 6;
+  printf("%d\n",k); //2
 
   int n = 2;
-  n >>= 1;
-  printf("%d\n",n);
+  n >>= 1; //facing towards is division
+  printf("%d\n",n); //1 2/2^1
 
   int w = 9;
-  w <<= 2;
-  printf("%d\n",w);
+  w <<= 2; //facing away is multiplication
+  printf("%d\n",w); //36 9x2^2
 
 return 0;
 }
