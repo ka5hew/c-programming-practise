@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int EvenNumbers()
+int SumEvenNumbers()
 {
     int n;
     printf("Enter a value : ");
@@ -12,7 +12,7 @@ int EvenNumbers()
 }
 int main ()
 {
-    int result = EvenNumbers();
+    int result = SumEvenNumbers();
     printf("The sum of n even numbers : %d\n",result);
     return 0;
 }
