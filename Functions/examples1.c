@@ -43,5 +43,36 @@ int main()
 // Sum of n even numbers ( function type without return value but with arguments )
 /* #include <stdio.h>
 
-void SumEvenNumbers (int n ) {
+void SumEvenNumbers (int n)
+{
+    int sum = n*(n+1);
+    printf("The sum of first n even integers is : %d", sum);
+}
+int main ()
+{
+    int n;
+    printf("Enter a value : ");
+    scanf("%d",&n);
+    SumEvenNumbers(n);
+    return 0;
+
+} */
+
+// Sum of n even numbers ( function type without return value and arguments )
+/* #include <stdio.h>
+
+void SumEvenNumbers ()
+{
+    int n;
+    printf("Enter a value : ");
+    scanf("%d",&n);
+    int sum = n*(n+1);
+    printf("The sum of first n even integers is : %d", sum);
+}
+int main ()
+{
+    SumEvenNumbers();
+    return 0;
+} */
+
       
